@@ -1,0 +1,96 @@
+private_outlets:
+  displayname:
+    - string
+    - required
+    - name of the outlet
+    - example: 'BBC News'
+  phonenumber_1:
+    - string
+    - optional
+    - phone number of the outlet
+    - example: '123456789'
+  phonenumber_2:
+    - string
+    - optional
+    - phone number of the outlet
+    - example: '123456789'
+  faxnumber:
+    - string
+    - optional
+    - fax number of the outlet
+    - example: '123456789'
+  email_1:
+    - string
+    - required
+    - email of the outlet
+    - example: 'bill@example.com'
+  email_2:
+    - string
+    - optional
+    - email of the outlet
+    - example: 'bill2@example.com'
+  twitter:
+    - string
+    - optional
+    - full URL of the twitter profile
+    - example: 'https://twitter.com/BBCNews'
+  linkedin:
+    - string
+    - optional
+    - full URL of the linkedin profile
+    - example: 'https://www.linkedin.com/company/bbc-news'
+  notes:
+    - string
+    - optional
+    - notes about the outlet
+    - example: 'This is a note'
+  private_outlet_type:
+    - string
+    - optional
+    - the source system of the outlet
+    - example: 'GORKANA | NGC3'
+  private_outlet_id:
+    - string
+    - optional
+    - id of the outlet on the source system
+    - example: '12345'
+  line1:
+    - string
+    - optional
+    - address line 1
+    - example: '123 Fake Street'
+  line2:
+    - string
+    - optional
+    - address line 2
+    - example: 'Fake Town'
+  line3:
+    - string
+    - optional
+    - address line 3
+    - example: 'Fake County'
+  city:
+    - string
+    - optional
+    - city
+    - example: 'Fake City'
+  state:
+    - string
+    - optional
+    - state
+    - example: 'Fake State'
+  county:
+    - string
+    - optional
+    - county
+    - example: 'Fake County'
+  postalcode_zipcode:
+    - string
+    - optional
+    - postal code
+    - example: '12345'
+  countryname:
+    - string
+    - optional
+    - country
+    - example: 'Fake Country'

@@ -1,0 +1,51 @@
+contact_list:
+  list_name:
+    - string
+    - required
+    - name of the contact list
+    - example: 'my_list'
+  description:
+    - text
+    - optional
+    - description of the contact list
+    - example: 'my_list description'
+  public_outlets_count:
+    - integer
+    - optional
+    - number of public outlets in the contact list
+    - example: '1'
+  private_outlets_count:
+    - integer
+    - optional
+    - number of private outlets in the contact list
+    - example: '1'
+  public_contacts_count:
+    - integer
+    - optional
+    - number of public contacts in the contact list
+    - example: '1'
+  private_contacts_count:
+    - integer
+    - optional
+    - number of private contacts in the contact list
+    - example: '1'
+  contact_list_type:
+    - string
+    - required
+    - the source system of the contact list
+    - example: 'GORKANA | NGC3'
+  contact_list_id:
+    - string|integer
+    - required
+    - id of the contact list on the source system
+    - example: '12345'
+  contact_list_user_id:
+    - string|integer
+    - required
+    - id of the user who owns the contact list on the source system
+    - example: '12345'
+  contact_list_user_type:
+    - string
+    - required
+    - the source system of the user who owns the contact list
+    - example: 'GORKANA | NGC3'
