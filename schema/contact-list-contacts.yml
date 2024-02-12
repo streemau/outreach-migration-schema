@@ -13,7 +13,7 @@ contact_list_contacts:
     - string
     - required
     - type of the contact id
-    - example: "MDM_INFLUENCER | MDM_OUTLET | GORKANA_INFLUENCER | GORKANA_OUTLET"
+    - example: "MDM_INFLUENCER | MDM_OUTLET | GORKANA_INFLUENCER | GORKANA_OUTLET | NGC3_INFLUENCER | NGC3_OUTLET | C3_INFLUENCER | C3_OUTLET"
   contact_id:
     - string|integer
     - required
