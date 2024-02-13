@@ -33,7 +33,7 @@ contact_list:
     - string
     - required
     - the source system of the contact list
-    - example: 'GORKANA | NGC3'
+    - example: 'GORKANA | NGC3 | C3'
   contact_list_id:
     - string|integer
     - required
@@ -48,4 +48,4 @@ contact_list:
     - string
     - required
     - the source system of the user who owns the contact list
-    - example: 'GORKANA | NGC3'
+    - example: 'GORKANA | NGC3 | C3'

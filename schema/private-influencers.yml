@@ -118,7 +118,7 @@ private_influencers:
     - string
     - required
     - the source system of the outlet
-    - example: "GORKANA | NGC3"
+    - example: "GORKANA | NGC3 | C3"
   private_influencer_outlet_id:
     - string
     - required
