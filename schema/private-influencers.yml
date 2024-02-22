@@ -1,0 +1,127 @@
+private_influencers:
+  salutation:
+    - string
+    - optional
+    - salutation of the contact
+    - example: "Mr"
+  first_name:
+    - string
+    - required
+    - first name of the contact
+    - example: "John"
+  last_name:
+    - string
+    - required
+    - last name of the contact
+    - example: "Doe"
+  phonenumber_1:
+    - string
+    - optional
+    - phone number of the contact
+    - example: "123456789"
+  phonenumber_2:
+    - string
+    - optional
+    - phone number of the contact
+    - example: "123456789"
+  faxnumber:
+    - string
+    - optional
+    - fax number of the contact
+    - example: "123456789"
+  email_1:
+    - string
+    - required
+    - email of the contact
+    - example: "bill@example.com"
+  email_2:
+    - string
+    - optional
+    - email of the contact
+    - example: "bill@secondexample.com"
+  job_title:
+    - string
+    - optional
+    - job title of the contact
+    - example: "CEO"
+  language:
+    - string
+    - optional
+    - language of the contact
+    - example: "English"
+  twitter:
+    - string
+    - optional
+    - full URL of the twitter profile
+    - example: "https://twitter.com/BBCNews"
+  linkedin:
+    - string
+    - optional
+    - full URL of the linkedin profile
+    - example: "https://www.linkedin.com/company/bbc-news"
+  private_influencer_type:
+    - string
+    - optional
+    - the source system of the influencer
+    - example: "GORKANA | NGC3"
+  private_influencer_id:
+    - string
+    - optional
+    - id of the influencer on the source system
+    - example: "12345"
+  notes:
+    - string
+    - optional
+    - notes about the contact
+    - example: "This is a note"
+  line1:
+    - string
+    - optional
+    - address line 1
+    - example: "123 Fake Street"
+  line2:
+    - string
+    - optional
+    - address line 2
+    - example: "Fake Town"
+  line3:
+    - string
+    - optional
+    - address line 3
+    - example: "Fake County"
+  city:
+    - string
+    - optional
+    - city
+    - example: "Fake City"
+  state:
+    - string
+    - optional
+    - state
+    - example: "Fake State"
+  county:
+    - string
+    - optional
+    - county
+    - example: "Fake County"
+  postalcode_zipcode:
+    - string
+    - optional
+    - postal code or zip code
+    - example: "12345"
+  countryname:
+    - string
+    - optional
+    - country name
+    - example: "Fake Country"
+  private_influencer_outlet_type:
+    - string
+    - required
+    - the source system of the outlet
+    - example: "GORKANA | NGC3 | C3"
+  private_influencer_outlet_id:
+    - string
+    - required
+    - id of the outlet on the source system
+    - example: "12345"
+

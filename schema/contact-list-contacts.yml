@@ -1,0 +1,21 @@
+contact_list_contacts:
+  list_name:
+    - string
+    - required
+    - name of the contact list
+    - example: "my_list"
+  list_id:
+    - string|integer
+    - required
+    - external id of the contact list
+    - example: "12345"
+  contact_id_type:
+    - string
+    - required
+    - type of the contact id
+    - example: "MDM_INFLUENCER | MDM_OUTLET | GORKANA_INFLUENCER | GORKANA_OUTLET | NGC3_INFLUENCER | NGC3_OUTLET | C3_INFLUENCER | C3_OUTLET"
+  contact_id:
+    - string|integer
+    - required
+    - id of the contact on the source system
+    - example: "12345"
